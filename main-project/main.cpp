@@ -10,8 +10,8 @@ int main()
     setlocale(LC_ALL, "Russian");
     cout << "Лабораторная работа №4. GIT\n";
     cout << "Вариант №2. Программа конференции\n";
-    cout << "Автор: Сергей Радевич\n\n";
-
+    cout << "Автор: Сергей Радевич\n";
+    cout << "Группа: 23ПИ1д\n";
     conference_programm* programs[MAX_FILE_ROWS_COUNT];
     int size;
     try
@@ -57,6 +57,12 @@ int main()
     {
         cout << error << '\n';
     }
+
+    cout << "Laboratory work #4. GIT\n";
+    cout << "Variant #2. Conference program\n";
+    cout << "Author: Sergey Radevich\n";
+    cout << "Group: 23PI1d\n";
+
     return 0;
 }
  
