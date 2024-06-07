@@ -1,5 +1,5 @@
-#ifndef CONFERENCE-PROGRAM.H
-#define CONFERENCE-PROGRAM.H
+#ifndef BOOK_SUBSCRIPTION_H
+#define BOOK_SUBSCRIPTION_H
 
 #include "constants.h"
 
