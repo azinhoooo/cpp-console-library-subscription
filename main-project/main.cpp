@@ -49,19 +49,19 @@ int main() {
 
         cout << "***** Программа конференции *****\n\n";
         for (int i = 0; i < size; i++) {
-            /********** вывод времени начала **********/
+            //вывод времени начала
             cout << "Время начала....: ";
             cout << setw(2) << setfill('0') << programs[i]->start.hour << ':';
             cout << setw(2) << setfill('0') << programs[i]->start.minute;
             cout << '\n';
 
-            /********** вывод времени окончания **********/
+            //вывод времени окончания
             cout << "Время окончания.: ";
             cout << setw(2) << setfill('0') << programs[i]->finish.hour << ':';
             cout << setw(2) << setfill('0') << programs[i]->finish.minute;
             cout << '\n';
 
-            /********** вывод автора **********/
+            //вывод автора
             cout << "Автор...........: ";
             // вывод фамилии
             cout << programs[i]->author.last_name << " ";
@@ -71,7 +71,7 @@ int main() {
             cout << programs[i]->author.middle_name[0] << ".";
             cout << '\n';
 
-            /********** вывод названия доклада **********/
+            //вывод названия доклада
             cout << "Название........: ";
             cout << '"' << programs[i]->title << '"';
             cout << '\n';
